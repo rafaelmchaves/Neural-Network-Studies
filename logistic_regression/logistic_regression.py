@@ -83,7 +83,6 @@ def initialize_with_zeros(dim):
 
     return w, b
 
-
 def propagate(w, b, X, Y):
     """
     Implement the cost function and its gradient for the propagation explained above
@@ -235,8 +234,7 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations=2000, learning_rate=0
     d -- dictionary containing information about the model.
     """
 
-    w = np.zeros((X_train.shape[0], 1))
-    b = 0.0
+    w, b = initialize_with_zeros(X_train.shape[0])
 
     params, grads, costs = optimize(w, b, X_train, Y_train, num_iterations, learning_rate, print_cost)
     # Retrieve parameters w and b from dictionary "params"
