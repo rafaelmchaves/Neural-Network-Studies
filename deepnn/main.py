@@ -25,7 +25,7 @@ pred_train = predict(train_x, train_y, parameters)
 
 pred_test = predict(test_x, test_y, parameters)
 
-my_image = "../logistic_regression/images/eu.jpeg" # change this to the name of your image file
+my_image = "../logistic_regression/images/eu.jpeg"  # change this to the name of your image file
 my_label_y = [1] # the true class of your image (1 -> cat, 0 -> non-cat)
 
 

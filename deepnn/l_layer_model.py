@@ -2,7 +2,7 @@ import numpy as np
 from deep_nn import initialize_parameters_deep, L_model_forward, update_parameters, compute_cost, L_model_backward
 
 
-def L_layer_model(X, Y, layers_dims, learning_rate=0.0075, num_iterations=3000, print_cost=False):
+def L_layer_model(X, Y, layers_dims, learning_rate=0.0075, num_iterations=3500, print_cost=False):
     """
     Implements a L-layer neural network: [LINEAR->RELU]*(L-1)->LINEAR->SIGMOID.
 
