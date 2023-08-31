@@ -1,3 +1,3 @@
 # Neural-Network-Studies
 
-Code produced during my Deep learning course in Coursera.
+Code produced during my Deep learning course in Coursera. Prof Andrew Ng
