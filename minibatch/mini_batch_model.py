@@ -15,7 +15,7 @@ def update_parameters_with_gd(parameters, grads, learning_rate):
     parameters -- python dictionary containing your parameters to be updated:
                     parameters['W' + str(l)] = Wl
                     parameters['b' + str(l)] = bl
-    grads -- python dictionary containing your gradients to update each parameters:
+    grads -- python dictionary containing your gradients to update each parameter:
                     grads['dW' + str(l)] = dWl
                     grads['db' + str(l)] = dbl
     learning_rate -- the learning rate, scalar.
