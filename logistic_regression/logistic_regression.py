@@ -78,7 +78,7 @@ def initialize_with_zeros(dim):
     w -- initialized vector of shape (dim, 1)
     b -- initialized scalar (corresponds to the bias) of type float
     """
-    w = np.zeros((dim, 1))
+    w = np.random.rand(dim, 1)
     b = 0.0
 
     return w, b
