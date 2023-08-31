@@ -51,7 +51,7 @@ def initialize_parameters_deep(layer_dims):
         # this weight initialization below has less accuracy
         # parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l - 1]) * 0.01
 
-        # he inicialization improved the test accuracy
+        # he initialization improved the test accuracy
         parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l - 1]) * np.sqrt(2./layer_dims[l-1])
         parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
 
